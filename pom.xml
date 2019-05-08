@@ -30,6 +30,12 @@
             </artifactId>
         </dependency>
 
+        <!-- NEEDED to retrieve the configuration from IVIRES-Config-Server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+
         <!--  Dependency to enable the spring boot web capabilities -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
